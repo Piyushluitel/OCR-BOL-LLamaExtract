@@ -1,0 +1,1023 @@
+2025-08-04 21:44:30,192 - INFO - Extracting data from file: ../BOL_Images/0012E3D6-04F8-40E3-992F-6910BAD94456.jpg
+2025-08-04 21:44:32,861 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-04 21:44:55,626 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-04 21:44:57,170 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-04 21:44:58,692 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/69e0ae02-d88c-42c7-967b-05d10053dea4 "HTTP/1.1 200 OK"
+2025-08-04 21:45:00,233 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/69e0ae02-d88c-42c7-967b-05d10053dea4 "HTTP/1.1 200 OK"
+2025-08-04 21:45:01,872 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/69e0ae02-d88c-42c7-967b-05d10053dea4 "HTTP/1.1 200 OK"
+2025-08-04 21:45:06,378 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/69e0ae02-d88c-42c7-967b-05d10053dea4 "HTTP/1.1 200 OK"
+2025-08-04 21:45:07,199 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/69e0ae02-d88c-42c7-967b-05d10053dea4 "HTTP/1.1 200 OK"
+2025-08-04 21:45:07,204 - INFO - File: ../BOL_Images/0012E3D6-04F8-40E3-992F-6910BAD94456.jpg - Extracted Data: {
+    "bol_number": "0001481033",
+    "card_in": "04/27/2023 17.30",
+    "card_out": "04/27/2023 17.58",
+    "truck_number": "121",
+    "truck_license_no": "YCRG439",
+    "trailer_numbers": [
+        "1211",
+        "CARRIER"
+    ],
+    "trailer_license_nos": [
+        "Hu66720",
+        "ORDER NO"
+    ],
+    "driver_number": "04210102",
+    "carrier_name": "TYREE OIL INC.",
+    "product_data": [
+        {
+            "product_code": "NA1993",
+            "product_name": "DIESEL FUEL, 3, PG III CARGO TANK",
+            "octane_rating": "0.0",
+            "temperature": "52.7",
+            "gravity": "35.7",
+            "gross_gallons": "9902",
+            "net_gallons": "9936"
+        },
+        {
+            "product_code": "Q0Q146",
+            "product_name": "ULS DIESEL W/5% BIODIESEL UNDYED ULTRA LOW SULFUR DIESEL, 15 PPM OR LESS SULFUR",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "",
+            "net_gallons": ""
+        }
+    ]
+}
+2025-08-04 21:46:29,194 - INFO - Extracting data from file: ../BOL_Images/0006CC04-15AE-4E8E-BA0B-689D6880FAE9.jpg
+2025-08-04 21:46:31,990 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-04 21:46:36,039 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-04 21:46:37,723 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-04 21:46:39,220 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:40,693 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:42,221 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:43,734 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:45,304 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:46,845 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:48,396 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:49,874 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:51,343 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:52,903 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:54,378 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:55,889 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:57,361 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:46:58,917 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:00,550 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:02,031 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:03,593 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:05,133 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:07,321 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:08,855 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:09,469 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/d4e5d764-fd4b-46d2-a52f-87bbb035ce1b "HTTP/1.1 200 OK"
+2025-08-04 21:47:09,473 - INFO - File: ../BOL_Images/0006CC04-15AE-4E8E-BA0B-689D6880FAE9.jpg - Extracted Data: {
+    "bol_number": "2000007906",
+    "card_in": "",
+    "card_out": "",
+    "truck_number": "0000178",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "",
+    "carrier_name": "PILOT THOMAS LOGISTICS",
+    "product_data": [
+        {
+            "product_code": "405600",
+            "product_name": "ULSD ISMV2 noTexLed",
+            "octane_rating": "",
+            "temperature": "64.5",
+            "gravity": "37.7",
+            "gross_gallons": "7400.0",
+            "net_gallons": "7384.0"
+        }
+    ]
+}
+2025-08-05 10:58:25,319 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpzx0cmnp3.pdf
+2025-08-05 10:58:28,157 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 10:58:30,481 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 10:58:31,372 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 10:58:32,725 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/0fe008c5-33e1-4d06-a079-c915a97fc180 "HTTP/1.1 200 OK"
+2025-08-05 10:58:34,158 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/0fe008c5-33e1-4d06-a079-c915a97fc180 "HTTP/1.1 200 OK"
+2025-08-05 10:58:35,594 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/0fe008c5-33e1-4d06-a079-c915a97fc180 "HTTP/1.1 200 OK"
+2025-08-05 10:58:36,957 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/0fe008c5-33e1-4d06-a079-c915a97fc180 "HTTP/1.1 200 OK"
+2025-08-05 10:58:38,321 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/0fe008c5-33e1-4d06-a079-c915a97fc180 "HTTP/1.1 200 OK"
+2025-08-05 10:58:39,664 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/0fe008c5-33e1-4d06-a079-c915a97fc180 "HTTP/1.1 200 OK"
+2025-08-05 10:58:40,193 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/0fe008c5-33e1-4d06-a079-c915a97fc180 "HTTP/1.1 200 OK"
+2025-08-05 10:58:40,198 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpzx0cmnp3.pdf - Extracted Data: {
+    "bol_number": "2266109",
+    "card_in": "2024-11-17 10:00:17",
+    "card_out": "2024-11-17 10:14:14",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "117242",
+    "carrier_name": "COLORADO COUNTY OIL COLUMBUS, TX",
+    "product_data": [
+        {
+            "product_code": "EX14",
+            "product_name": "ULTRALow SULFUR #2 DIESEL",
+            "octane_rating": "",
+            "temperature": "35.7",
+            "gravity": "82",
+            "gross_gallons": "1393",
+            "net_gallons": "1393"
+        },
+        {
+            "product_code": "26001",
+            "product_name": "Winter REGULAR REFORMULATED GASOLINE",
+            "octane_rating": "87.0",
+            "temperature": "66.156",
+            "gravity": "82.8",
+            "gross_gallons": "2558",
+            "net_gallons": "2558"
+        },
+        {
+            "product_code": "1000",
+            "product_name": "Winter REGULAR REFORMULATED GASOLINE",
+            "octane_rating": "87.0",
+            "temperature": "",
+            "gravity": "80.8",
+            "gross_gallons": "986",
+            "net_gallons": "986"
+        },
+        {
+            "product_code": "903",
+            "product_name": "WINTER PREMIUM REFORMULATED GASOLINE",
+            "octane_rating": "93.0",
+            "temperature": "68.761",
+            "gravity": "77.8",
+            "gross_gallons": "891",
+            "net_gallons": "891"
+        },
+        {
+            "product_code": "2601",
+            "product_name": "WINTER REGULAR REFORMULATED GASOLINE",
+            "octane_rating": "87.01",
+            "temperature": "66.157",
+            "gravity": "",
+            "gross_gallons": "2560",
+            "net_gallons": "2560"
+        }
+    ]
+}
+2025-08-05 10:59:48,639 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmptqbx1zx7.jpg
+2025-08-05 10:59:52,446 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 10:59:55,346 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 10:59:56,364 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 10:59:57,729 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 10:59:59,212 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:00,606 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:01,969 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:03,328 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:04,709 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:06,155 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:07,520 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:08,898 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:10,323 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:11,708 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:13,064 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:14,428 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:15,862 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:17,229 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:18,694 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:20,074 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:21,421 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:22,887 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:24,404 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:25,792 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:27,225 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:28,744 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:30,106 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:31,704 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:33,118 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:33,585 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/db221b82-2070-450a-acbe-9e78274a5c03 "HTTP/1.1 200 OK"
+2025-08-05 11:00:33,590 - INFO - File: C:\Users\user\AppData\Local\Temp\tmptqbx1zx7.jpg - Extracted Data: {
+    "bol_number": "0113945",
+    "card_in": "05/08/23 06:22",
+    "card_out": "05/08/23 06:48",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "0000126.8",
+    "carrier_name": "000L093",
+    "product_data": [
+        {
+            "product_code": "NA1993",
+            "product_name": "DIESEL FUEL, PGIII, 1CT (#2 DIESEL FUEL AND/OR #2 CLEARNDLSR, #N/RDSTILLATE) MEETS ASTM D975 W/ADD",
+            "octane_rating": "",
+            "temperature": "54.7",
+            "gravity": "36.6",
+            "gross_gallons": "1002",
+            "net_gallons": "1005"
+        },
+        {
+            "product_code": "UN1203",
+            "product_name": "GASOLINE, CLASS 3, PGII, 1CT THIS PRODUCT IS SUMMER GASOLINE WITH 9.0 PSI RVP MAX (301302 COP RUL E10)",
+            "octane_rating": "",
+            "temperature": "60.7",
+            "gravity": "59",
+            "gross_gallons": "5250",
+            "net_gallons": "5248"
+        },
+        {
+            "product_code": "UN1203",
+            "product_name": "GASOLINE, CLASS 3, PGII, 1CT THIS PRODUCT IS SUMMER GASOLINE WITH 9.0 PSI RVP MAX (301366 CoP PUL E10)",
+            "octane_rating": "",
+            "temperature": "55.7",
+            "gravity": "56.1",
+            "gross_gallons": "1250",
+            "net_gallons": "1253"
+        }
+    ]
+}
+2025-08-05 11:02:44,053 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmp98l4ohy3.jpg
+2025-08-05 11:02:46,150 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 11:02:49,047 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 11:02:50,019 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 11:02:51,382 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:02:52,751 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:02:54,125 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:02:55,515 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:02:56,896 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:02:58,267 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:02:59,639 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:01,068 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:02,506 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:03,895 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:05,272 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:06,657 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:08,028 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:09,410 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:10,786 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:12,172 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:13,552 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:14,945 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:16,310 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:17,852 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:19,262 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:20,627 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:21,997 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:23,369 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:24,764 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:26,137 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:27,514 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:28,936 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:29,442 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/2b95114e-c8aa-4523-b286-d373195f125f "HTTP/1.1 200 OK"
+2025-08-05 11:03:29,446 - INFO - File: C:\Users\user\AppData\Local\Temp\tmp98l4ohy3.jpg - Extracted Data: {
+    "bol_number": "673080593",
+    "card_in": "01/05/2025 02:05:32",
+    "card_out": "01/05/2025 02:20:05",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [
+        "30"
+    ],
+    "trailer_license_nos": [],
+    "driver_number": "272011",
+    "carrier_name": "SPRAGUE TRANSPORT LLC",
+    "product_data": [
+        {
+            "product_code": "822",
+            "product_name": "#1 NR1S DIESEL DYED",
+            "octane_rating": "",
+            "temperature": "18.2",
+            "gravity": "42.4",
+            "gross_gallons": "3,001",
+            "net_gallons": "3,063"
+        },
+        {
+            "product_code": "822",
+            "product_name": "#1 NR1S DIESEL DYED",
+            "octane_rating": "",
+            "temperature": "26.2",
+            "gravity": "42.4",
+            "gross_gallons": "503",
+            "net_gallons": "511"
+        }
+    ]
+}
+2025-08-05 12:11:45,697 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmp1zivikss.jpg
+2025-08-05 12:11:48,987 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 12:11:51,695 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 12:11:52,714 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 12:11:54,069 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:11:55,446 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:11:56,812 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:11:58,202 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:11:59,577 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:00,955 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:02,323 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:03,688 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:05,064 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:06,444 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:07,883 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:09,248 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:10,600 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:11,958 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:13,346 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:14,769 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:16,134 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:17,529 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:18,888 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:20,265 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:21,628 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:23,001 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:24,439 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:25,808 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:27,175 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:28,572 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:30,092 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:30,586 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/93a722a9-c9d7-4f0b-9e66-322a4b189810 "HTTP/1.1 200 OK"
+2025-08-05 12:12:30,591 - INFO - File: C:\Users\user\AppData\Local\Temp\tmp1zivikss.jpg - Extracted Data: {
+    "bol_number": "1277553",
+    "card_in": "2023-04-27T05:08:00",
+    "card_out": "2023-04-27T05:20:00",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [
+        "00007"
+    ],
+    "trailer_license_nos": [],
+    "driver_number": "3216",
+    "carrier_name": "MONUMENT OIL COMPANY",
+    "product_data": [
+        {
+            "product_code": "",
+            "product_name": "#2D 15 ppm Sulfur MV Diesel",
+            "octane_rating": "85",
+            "temperature": "",
+            "gravity": "46",
+            "gross_gallons": "2000",
+            "net_gallons": "62.5"
+        },
+        {
+            "product_code": "",
+            "product_name": "85 OCT E10 WINTER CG (TOP TIER)",
+            "octane_rating": "85",
+            "temperature": "",
+            "gravity": "47",
+            "gross_gallons": "3007",
+            "net_gallons": "62.6"
+        },
+        {
+            "product_code": "",
+            "product_name": "85 OCT E10 WINTER CG (TOP TIER)",
+            "octane_rating": "91",
+            "temperature": "",
+            "gravity": "45",
+            "gross_gallons": "999",
+            "net_gallons": "57.6"
+        }
+    ]
+}
+2025-08-05 12:15:12,801 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmplv079ywz.jpg
+2025-08-05 12:15:15,209 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 12:15:18,756 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 12:15:21,215 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 12:15:24,104 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:25,546 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:26,978 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:28,588 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:30,026 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:31,460 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:32,895 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:34,426 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:35,931 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:37,401 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:38,931 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:40,364 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:41,811 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:43,267 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:44,706 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:46,289 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:47,839 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:49,270 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:50,809 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:52,245 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:53,672 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:55,134 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:56,581 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:58,027 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:15:59,474 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:16:00,028 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/650d2bc2-934f-4a52-93a3-2a60f7860be5 "HTTP/1.1 200 OK"
+2025-08-05 12:16:00,033 - INFO - File: C:\Users\user\AppData\Local\Temp\tmplv079ywz.jpg - Extracted Data: {
+    "bol_number": "84232",
+    "card_in": "2023-12-09 10.57*40",
+    "card_out": "2023-12-09 11;07:11",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "118626",
+    "carrier_name": "Viotaiavpant",
+    "product_data": [
+        {
+            "product_code": "NAT993",
+            "product_name": "DIESEL FUEL",
+            "octane_rating": "",
+            "temperature": "64.2",
+            "gravity": "35.3001",
+            "gross_gallons": "6001",
+            "net_gallons": "599"
+        },
+        {
+            "product_code": "",
+            "product_name": "ULSD FOR USE IN ALL DIESEL VEHICLES AND ENGINES.",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "35.300",
+            "gross_gallons": "1800",
+            "net_gallons": "1796"
+        },
+        {
+            "product_code": "",
+            "product_name": "ULSD FOR USE IN ALL DIESEL VEHICLES AND ENGINES.",
+            "octane_rating": "0.01",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "9001",
+            "net_gallons": "8981"
+        },
+        {
+            "product_code": "",
+            "product_name": "DYED ULTRA LOW SULFUR #2 DIESEL",
+            "octane_rating": "",
+            "temperature": "65.5",
+            "gravity": "35.300",
+            "gross_gallons": "9001",
+            "net_gallons": "898"
+        },
+        {
+            "product_code": "",
+            "product_name": "DYED ULTRA LOW SULFUR #2 DIESEL",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "",
+            "net_gallons": ""
+        }
+    ]
+}
+2025-08-05 13:42:48,956 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpflu3rs1v.jpg
+2025-08-05 13:42:49,245 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpflu3rs1v.jpg: name 'uuid' is not defined
+2025-08-05 13:43:36,804 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpmtabywdo.jpg
+2025-08-05 13:43:37,093 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpmtabywdo.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 13:46:26,029 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpvg71esom.jpg
+2025-08-05 13:46:26,312 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpvg71esom.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 13:46:36,490 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpj05whhir.jpg
+2025-08-05 13:46:36,766 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpj05whhir.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 13:48:25,928 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmp244yx4no.jpg
+2025-08-05 13:48:26,221 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmp244yx4no.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 13:48:40,881 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmp1w9fe4l2.jpg
+2025-08-05 13:48:41,155 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmp1w9fe4l2.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 13:49:07,359 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpkgtg5e5g.jpg
+2025-08-05 13:49:07,625 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpkgtg5e5g.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 13:53:17,958 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpo2po2ft6.jpg
+2025-08-05 13:53:18,224 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpo2po2ft6.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 13:56:21,002 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpfxrrys13.jpg
+2025-08-05 13:56:21,310 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpfxrrys13.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 14:07:09,199 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmprml9p9_l.jpg
+2025-08-05 14:07:09,496 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmprml9p9_l.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 14:07:44,647 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmphxonlrdo.jpg
+2025-08-05 14:07:47,679 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 14:07:50,922 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 14:07:51,874 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 14:07:53,315 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:07:54,749 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:07:56,206 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:07:57,636 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:07:59,071 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:00,500 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:01,948 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:03,628 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:05,060 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:06,494 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:08,097 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:09,550 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:11,007 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:12,493 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:13,932 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:15,369 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:16,798 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:18,237 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:19,685 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:21,166 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:22,593 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:24,041 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:25,474 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:26,917 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:28,380 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:29,940 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:31,378 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:32,840 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:34,262 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:35,714 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:37,143 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:37,700 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/443417f3-d002-4462-b338-f10e79968a72 "HTTP/1.1 200 OK"
+2025-08-05 14:08:37,706 - INFO - File: C:\Users\user\AppData\Local\Temp\tmphxonlrdo.jpg - Extracted Data: {
+    "bol_number": "2032347",
+    "card_in": "2024-01-12 08.49.11",
+    "card_out": "2024-01-12 08.58.26",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "10854",
+    "carrier_name": "",
+    "product_data": [
+        {
+            "product_code": "9001",
+            "product_name": "ITG DYED ULTRA Low Sulfur 82 DIESEL",
+            "octane_rating": "3.3",
+            "temperature": "68.71",
+            "gravity": "35.3",
+            "gross_gallons": "9001",
+            "net_gallons": "097"
+        },
+        {
+            "product_code": "800",
+            "product_name": "TG DYED ULTRA LOW SULFUR 02 DIESEL",
+            "octane_rating": "3.3",
+            "temperature": "68.8",
+            "gravity": "35.3",
+            "gross_gallons": "800",
+            "net_gallons": "797"
+        }
+    ]
+}
+2025-08-05 14:12:44,967 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpucfwiz_c.jpg
+2025-08-05 14:12:45,263 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpucfwiz_c.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 14:14:08,266 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpghdalxjv.jpg
+2025-08-05 14:14:08,559 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpghdalxjv.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 14:17:15,039 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmp9p524676.jpg
+2025-08-05 14:17:15,338 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmp9p524676.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 14:33:01,708 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpm_04eqih.jpg
+2025-08-05 14:33:01,981 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpm_04eqih.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 14:36:35,505 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpx1yb9s94.jpg
+2025-08-05 14:36:35,804 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpx1yb9s94.jpg: 'dict' object has no attribute 'cite_sources'
+2025-08-05 14:37:06,177 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpisdli68i.jpg
+2025-08-05 14:37:17,568 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 14:37:20,993 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 14:37:22,172 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 14:37:23,620 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/02ea2b58-a633-4fa5-b4a6-af82159c1e5c "HTTP/1.1 200 OK"
+2025-08-05 14:37:25,183 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/02ea2b58-a633-4fa5-b4a6-af82159c1e5c "HTTP/1.1 200 OK"
+2025-08-05 14:37:26,614 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/02ea2b58-a633-4fa5-b4a6-af82159c1e5c "HTTP/1.1 200 OK"
+2025-08-05 14:37:28,037 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/02ea2b58-a633-4fa5-b4a6-af82159c1e5c "HTTP/1.1 200 OK"
+2025-08-05 14:37:28,579 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/02ea2b58-a633-4fa5-b4a6-af82159c1e5c "HTTP/1.1 200 OK"
+2025-08-05 14:37:28,583 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpisdli68i.jpg - Extracted Data: {
+    "bol_number": "0001481033",
+    "card_in": "17.30",
+    "card_out": "17.58",
+    "truck_number": "121",
+    "truck_license_no": "YCRG439",
+    "trailer_numbers": [
+        "1211"
+    ],
+    "trailer_license_nos": [
+        "Hu66720"
+    ],
+    "driver_number": "04210102",
+    "carrier_name": "TYREE OIL INC.",
+    "product_data": [
+        {
+            "product_code": "NA1993",
+            "product_name": "DIESEL FUEL, 3, PG III CARGO TANK",
+            "octane_rating": "0.0",
+            "temperature": "52.7",
+            "gravity": "35.7",
+            "gross_gallons": "9902",
+            "net_gallons": "9936"
+        },
+        {
+            "product_code": "Q0Q146",
+            "product_name": "ULS DIESEL W/5% BIODIESEL UNDYED ULTRA LOW SULFUR DIESEL, 15 PPM OR LESS SULFUR",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "",
+            "net_gallons": ""
+        }
+    ]
+}
+2025-08-05 15:00:15,312 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpyntr1ean.jpg
+2025-08-05 15:00:18,281 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 15:00:21,977 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 15:00:23,016 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 15:00:24,449 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:25,912 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:27,525 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:28,940 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:30,513 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:32,112 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:33,543 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:34,965 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:36,392 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:37,850 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:39,326 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:40,767 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:42,247 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:43,681 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:45,209 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:46,761 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:48,462 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:48,983 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/d5def72c-1096-4e8f-86f0-04f78b307a47 "HTTP/1.1 200 OK"
+2025-08-05 15:00:48,990 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpyntr1ean.jpg - Extracted Data: {
+    "bol_number": "2130207",
+    "card_in": "2024-01-19 11.02:14",
+    "card_out": "2024-01-19 11.07.33",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "116688",
+    "carrier_name": "",
+    "product_data": [
+        {
+            "product_code": "",
+            "product_name": "WINTER REGULAR CONVENTIONAL GASOLINE",
+            "octane_rating": "87.0",
+            "temperature": "31.9",
+            "gravity": "62.747",
+            "gross_gallons": "950",
+            "net_gallons": "9691 GAL"
+        }
+    ]
+}
+2025-08-05 15:02:14,297 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpjnhn9tkz.jpg
+2025-08-05 15:02:17,340 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 15:02:20,985 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 15:02:22,162 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 15:02:23,613 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:25,256 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:26,823 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:28,247 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:29,675 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:31,188 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:32,687 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:34,162 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:35,666 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:37,096 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:38,520 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:40,100 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:41,533 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:43,190 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:44,627 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:46,042 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:46,708 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/1faffa33-8c6d-44bf-a383-97987308af6b "HTTP/1.1 200 OK"
+2025-08-05 15:02:46,713 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpjnhn9tkz.jpg - Extracted Data: {
+    "bol_number": "2130207",
+    "card_in": "2024-01-19 11.02:14",
+    "card_out": "2024-01-19 11.07.33",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "116688",
+    "carrier_name": "Magellan Pipeline",
+    "product_data": [
+        {
+            "product_code": "",
+            "product_name": "WINTER REGULAR CONVENTIONAL GASOLINE",
+            "octane_rating": "87.0",
+            "temperature": "31.9",
+            "gravity": "62.747",
+            "gross_gallons": "950",
+            "net_gallons": "9691 GAL"
+        }
+    ]
+}
+2025-08-05 15:05:28,764 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmph3uwfwyi.jpg
+2025-08-05 15:05:31,475 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 15:05:35,406 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 15:05:36,423 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 15:05:37,859 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:39,365 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:40,812 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:42,261 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:43,748 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:45,212 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:46,655 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:48,160 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:48,722 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/8fc2ed5f-68e9-431e-ba72-dfb384e9bcdf "HTTP/1.1 200 OK"
+2025-08-05 15:05:48,727 - INFO - File: C:\Users\user\AppData\Local\Temp\tmph3uwfwyi.jpg - Extracted Data: {
+    "bol_number": "0113945",
+    "card_in": "05/08/23 06:22",
+    "card_out": "05/08/23 06:48",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "0000126.8",
+    "carrier_name": "MONUMENT OIL Co",
+    "product_data": [
+        {
+            "product_code": "NA1993",
+            "product_name": "DIESEL FUEL, PGIII, 1CT (#2 DIESEL FUEL AND/OR #2 CLEARNDLSR, #N/RDSTILLATE) MEETS ASTM D975 W/ADD",
+            "octane_rating": "",
+            "temperature": "54.7",
+            "gravity": "36.6",
+            "gross_gallons": "1002",
+            "net_gallons": "1005"
+        },
+        {
+            "product_code": "UN1203",
+            "product_name": "GASOLINE, CLASS 3, PGII, 1CT THIS PRODUCT IS SUMMER GASOLINE WITH 9.0 PSI RVP MAX (301302 COP RUL E10)",
+            "octane_rating": "",
+            "temperature": "60.7",
+            "gravity": "59",
+            "gross_gallons": "5250",
+            "net_gallons": "5248"
+        },
+        {
+            "product_code": "UN1203",
+            "product_name": "GASOLINE, CLASS 3, PGII, 1CT THIS PRODUCT IS SUMMER GASOLINE WITH 9.0 PSI RVP MAX (301366 CoP PUL E10)",
+            "octane_rating": "",
+            "temperature": "55.7",
+            "gravity": "56.1",
+            "gross_gallons": "1250",
+            "net_gallons": "1253"
+        }
+    ]
+}
+2025-08-05 15:26:09,617 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpvqvlmgdy.jpg
+2025-08-05 15:26:13,531 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 15:26:17,043 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 15:26:18,073 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 15:26:19,520 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:20,946 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:22,390 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:23,840 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:25,258 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:26,766 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:28,196 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:29,614 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:31,027 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:32,458 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:33,893 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:35,382 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:36,841 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:38,249 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:39,755 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:41,171 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:42,617 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:44,028 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:45,512 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:47,061 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:48,552 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:50,134 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:51,616 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:53,047 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:54,473 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:55,890 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:56,481 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/ab04976a-de52-4776-baf3-0163dc122239 "HTTP/1.1 200 OK"
+2025-08-05 15:26:56,487 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpvqvlmgdy.jpg - Extracted Data: {
+    "bol_number": "L",
+    "card_in": "03/27/24 10:05",
+    "card_out": "03/27/24 10:17",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "0QQQ1302",
+    "carrier_name": "Monument Oil Co",
+    "card_in_date": "03/27/24",
+    "supplier": "Monument Oil Co",
+    "product_data": [
+        {
+            "product_code": "NA1993",
+            "product_name": "DIESEL FUEL, #1 DISTILLATE",
+            "octane_rating": "",
+            "temperature": "38",
+            "gravity": "",
+            "gross_gallons": "2000",
+            "net_gallons": ""
+        },
+        {
+            "product_code": "#2 CLEAR ULSD",
+            "product_name": "#2 CLEAR ULSD, W/ADD diesel fuel (UNDYED) 15 ppm sulfur (maximum)",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "",
+            "net_gallons": ""
+        },
+        {
+            "product_code": "UN1203",
+            "product_name": "GASOLINE, CLASS PGII, 1CT",
+            "octane_rating": "",
+            "temperature": "2022",
+            "gravity": "",
+            "gross_gallons": "45",
+            "net_gallons": ""
+        },
+        {
+            "product_code": "300948",
+            "product_name": "UNB PUL E1098 and 103 volume Ethanol",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "52",
+            "net_gallons": ""
+        },
+        {
+            "product_code": "UN1203",
+            "product_name": "GASOLINE, CLASS 3, PGII, 1CT",
+            "octane_rating": "",
+            "temperature": "50.5",
+            "gravity": "",
+            "gross_gallons": "60",
+            "net_gallons": ""
+        },
+        {
+            "product_code": "301036",
+            "product_name": "UNB RUL E10 and 10% volume Ethanol",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "",
+            "net_gallons": ""
+        }
+    ]
+}
+2025-08-05 16:01:18,092 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmp6yk4n0_u.jpg
+2025-08-05 16:01:18,685 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmp6yk4n0_u.jpg: Network error: [Errno 11001] getaddrinfo failed
+2025-08-05 16:01:38,042 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpne59bkb5.jpg
+2025-08-05 16:01:40,851 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 16:01:45,484 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 16:01:46,467 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 16:01:47,982 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/c3f4696c-b710-4644-bdd0-e6a738adff7c "HTTP/1.1 200 OK"
+2025-08-05 16:01:49,505 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/c3f4696c-b710-4644-bdd0-e6a738adff7c "HTTP/1.1 200 OK"
+2025-08-05 16:01:50,958 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/c3f4696c-b710-4644-bdd0-e6a738adff7c "HTTP/1.1 200 OK"
+2025-08-05 16:01:52,451 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/c3f4696c-b710-4644-bdd0-e6a738adff7c "HTTP/1.1 200 OK"
+2025-08-05 16:01:53,884 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/c3f4696c-b710-4644-bdd0-e6a738adff7c "HTTP/1.1 200 OK"
+2025-08-05 16:01:54,502 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/c3f4696c-b710-4644-bdd0-e6a738adff7c "HTTP/1.1 200 OK"
+2025-08-05 16:01:54,508 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpne59bkb5.jpg - Extracted Data: {
+    "bol_number": "0001481033",
+    "card_in": "17.30 04/27/2023",
+    "card_out": "17.58 04/27/2023",
+    "truck_number": "121",
+    "truck_license_no": "YCRG439",
+    "trailer_numbers": [
+        "1211",
+        "CARRIER"
+    ],
+    "trailer_license_nos": [
+        "Hu66720",
+        "ORDER NO"
+    ],
+    "driver_number": "04210102",
+    "carrier_name": "TYREE OIL INC.",
+    "card_in_date": "04/27/2023",
+    "supplier": "MARATHON PETROLEUM COMPANY LP",
+    "product_data": [
+        {
+            "product_code": "NA1993",
+            "product_name": "DIESEL FUEL, 3, PG III CARGO TANK",
+            "octane_rating": "0.0",
+            "temperature": "52.7",
+            "gravity": "35.7",
+            "gross_gallons": "9902",
+            "net_gallons": "9936"
+        },
+        {
+            "product_code": "Q0Q146",
+            "product_name": "ULS DIESEL W/5% BIODIESEL UNDYED ULTRA LOW SULFUR DIESEL, 15 PPM OR LESS SULFUR",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "",
+            "gross_gallons": "",
+            "net_gallons": ""
+        }
+    ]
+}
+2025-08-05 16:10:34,217 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpc3qfsibq.jpg
+2025-08-05 16:10:37,395 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-05 16:10:40,832 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-05 16:10:42,032 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-05 16:10:43,493 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:44,911 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:46,433 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:47,861 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:49,274 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:50,711 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:52,151 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:53,574 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:55,006 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:56,440 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:57,922 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:10:59,346 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:00,848 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:02,275 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:03,706 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:05,193 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:06,656 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:08,068 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:09,569 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:10,986 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:12,422 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:13,843 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:15,352 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:17,850 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:19,353 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:20,796 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:22,221 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:22,784 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/01674cce-32f3-4999-91c3-92a80596466a "HTTP/1.1 200 OK"
+2025-08-05 16:11:22,792 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpc3qfsibq.jpg - Extracted Data: {
+    "bol_number": "0001463304",
+    "card_in": "02/22/2023 16:52",
+    "card_out": "02/22/2023 16:57",
+    "truck_number": "19",
+    "truck_license_no": "YCRE912",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "04210024",
+    "carrier_name": "TYREE OIL INC",
+    "supplier": "IDEMITSU APOLLO CORPORATION",
+    "product_data": [
+        {
+            "product_code": "UN1203",
+            "product_name": "GASOLINE 3, PG II / CARGO TANK",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "2149",
+            "gross_gallons": "",
+            "net_gallons": "2171"
+        },
+        {
+            "product_code": "0QQ153",
+            "product_name": "CONV REG 10% ETH WIA1O",
+            "octane_rating": "87.0",
+            "temperature": "45.0",
+            "gravity": "63.7",
+            "gross_gallons": "",
+            "net_gallons": "1955"
+        },
+        {
+            "product_code": "QQQoo9",
+            "product_name": "CONV SUB REG (BASE)",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "1935",
+            "gross_gallons": "",
+            "net_gallons": ""
+        },
+        {
+            "product_code": "QQQ038",
+            "product_name": "ETHANOL (BASE)",
+            "octane_rating": "",
+            "temperature": "",
+            "gravity": "214",
+            "gross_gallons": "",
+            "net_gallons": ""
+        }
+    ]
+}
+2025-08-06 12:55:55,787 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmp6y_3rmvc.jpg
+2025-08-06 12:55:57,565 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 400 Bad Request"
+2025-08-06 12:55:57,568 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmp6y_3rmvc.jpg: status_code: 400, body: {'detail': "schema_validation: Unexpected $ref format '#/properties/product_code'; Does not start with #/$defs/ at path (properties.product_data.array.items.ref)\nSee: https://docs.cloud.llamaindex.ai/llamaextract/features/schema_restrictions"}
+2025-08-06 13:09:41,816 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpvkeexrwq.jpg
+2025-08-06 13:09:43,393 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 400 Bad Request"
+2025-08-06 13:09:43,396 - ERROR - Error during extraction for C:\Users\user\AppData\Local\Temp\tmpvkeexrwq.jpg: status_code: 400, body: {'detail': "schema_validation: Unexpected $ref format '#/properties/product_code'; Does not start with #/$defs/ at path (properties.product_data.array.items.ref)\nSee: https://docs.cloud.llamaindex.ai/llamaextract/features/schema_restrictions"}
+2025-08-06 13:10:13,722 - INFO - Extracting data from file: C:\Users\user\AppData\Local\Temp\tmpx6xen4xi.jpg
+2025-08-06 13:10:17,196 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/extraction-agents "HTTP/1.1 200 OK"
+2025-08-06 13:10:20,107 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/files "HTTP/1.1 200 OK"
+2025-08-06 13:10:21,441 - INFO - HTTP Request: POST https://api.cloud.llamaindex.ai/api/v1/extraction/jobs "HTTP/1.1 200 OK"
+2025-08-06 13:10:22,846 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/a7a975d8-f3f0-43f9-ad44-35c53b29461c "HTTP/1.1 200 OK"
+2025-08-06 13:10:24,357 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/a7a975d8-f3f0-43f9-ad44-35c53b29461c "HTTP/1.1 200 OK"
+2025-08-06 13:10:25,819 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/a7a975d8-f3f0-43f9-ad44-35c53b29461c "HTTP/1.1 200 OK"
+2025-08-06 13:10:27,242 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/a7a975d8-f3f0-43f9-ad44-35c53b29461c "HTTP/1.1 200 OK"
+2025-08-06 13:10:28,980 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/jobs/a7a975d8-f3f0-43f9-ad44-35c53b29461c "HTTP/1.1 200 OK"
+2025-08-06 13:10:29,587 - INFO - HTTP Request: GET https://api.cloud.llamaindex.ai/api/v1/extraction/runs/by-job/a7a975d8-f3f0-43f9-ad44-35c53b29461c "HTTP/1.1 200 OK"
+2025-08-06 13:10:29,593 - INFO - File: C:\Users\user\AppData\Local\Temp\tmpx6xen4xi.jpg - Extracted Data: {
+    "bol_number": "2032347",
+    "card_in": "2024-01-12 08.49.11",
+    "card_out": "2024-01-12 08.58.26",
+    "truck_number": "",
+    "truck_license_no": "",
+    "trailer_numbers": [],
+    "trailer_license_nos": [],
+    "driver_number": "10854",
+    "carrier_name": "",
+    "supplier": "0164 VAL MKT & SUP",
+    "product_data": [
+        {
+            "product_code": "9001",
+            "product_name": "ITG DYED ULTRA Low Sulfur 82 DIESEL",
+            "octane_rating": "3.3",
+            "temperature": "68.71",
+            "gravity": "35.3",
+            "gross_gallons": "097",
+            "net_gallons": ""
+        },
+        {
+            "product_code": "800",
+            "product_name": "TG DYED ULTRA LOW SULFUR 02 DIESEL",
+            "octane_rating": "3.3",
+            "temperature": "68.8",
+            "gravity": "35.3",
+            "gross_gallons": "797",
+            "net_gallons": ""
+        }
+    ]
+}
