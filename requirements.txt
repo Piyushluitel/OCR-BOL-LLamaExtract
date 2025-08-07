@@ -1,1 +1,5 @@
-llama_cloud_services
+streamlit
+llama-cloud-services
+pdf2image
+Pillow
+pydantic
