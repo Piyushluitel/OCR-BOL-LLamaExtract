@@ -4,9 +4,7 @@ import os
 import streamlit as st
 from PIL import Image
 import requests
-from io import BytesIO
 from utils import extract_transaction_data, LLAMA_CLOUD_API_KEY
-
 
 # Function to get the filenames from the local s3_filenames.txt file
 def get_local_filenames(file_path: str) -> list:
@@ -32,7 +30,14 @@ def get_local_filenames(file_path: str) -> list:
 
 # Function to get a pre-signed URL to access the file directly from S3
 def get_s3_presigned_url(bucket_name: str, file_key: str, expiration: int = 3600) -> str:
-    s3_client = boto3.client('s3')
+    # Configure boto3 client with AWS credentials from environment variables
+    s3_client = boto3.client(
+        's3',
+        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),   # Streamlit environment variable for AWS access key
+        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),  # Streamlit environment variable for AWS secret key
+        region_name="us-west-1"  # Optional: specify your region
+    )
+    
     try:
         # Generate a presigned URL to access the file from S3
         url = s3_client.generate_presigned_url('get_object',
