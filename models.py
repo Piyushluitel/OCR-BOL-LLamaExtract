@@ -55,12 +55,12 @@ class TransactionData(BaseModel):
         alias="BOL #" 
     )
     Card_in: str = Field(
-        description="The time when the transaction started or the product was loaded onto the transport vehicle. It marks the start of the shipping or delivery cycle and helps in tracking the duration of the shipment. This should be recorded in a 24-hour time format. Sometimes, this is also represented as load in time, card in, load start, start time",
+        description="The time when the transaction started or the product was loaded onto the transport vehicle. It marks the start of the shipping or delivery cycle and helps in tracking the duration of the shipment. This should be recorded in a 24-hour time format. Sometimes, this is also represented as load in time, card in, load start, start time. just take out the hour and minute. not second. ",
         example="09:00",  # Example of card-in time (time only, no date).
         alias="Card In time" 
     )
     card_out: str = Field(
-        description="The time when the product was delivered or the transaction was completed. It typically marks when the goods are offloaded from the transport vehicle, marking the end of the shipping cycle. This should be recorded in a 24-hour time format. Sometimes, this is also represented as load out time, card out, load end, end time",
+        description="The time when the product was delivered or the transaction was completed. It typically marks when the goods are offloaded from the transport vehicle, marking the end of the shipping cycle. This should be recorded in a 24-hour time format. Sometimes, this is also represented as load out time, card out, load end, end time.just take out the hour and minute. not second. ",
         example="17:00",  # Example of card-out time (time only, no date).
         alias="Card Out time" 
     )
