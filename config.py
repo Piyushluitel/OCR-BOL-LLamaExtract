@@ -19,6 +19,6 @@ prompt = (
 EXTRACTION_CONFIG = ExtractConfig(
     use_reasoning=True,
     cite_sources=True,
-    extraction_mode=ExtractMode.MULTIMODAL,
+    extraction_mode=ExtractMode.PREMIUM,
     system_prompt=prompt
 )
