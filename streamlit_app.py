@@ -5,6 +5,7 @@ import streamlit as st
 from PIL import Image
 import requests
 from utils import extract_transaction_data, LLAMA_CLOUD_API_KEY
+from image_processing import preprocess_image_grayscale  # Import the preprocessing function
 
 # Function to get the filenames from the local s3_filenames.txt file
 def get_local_filenames(file_path: str) -> list:
@@ -95,24 +96,15 @@ else:
                 tmp_file.write(uploaded_file.read())
                 temp_file_path = tmp_file.name
 
+            # Preprocess the image (convert to grayscale)
+            preprocessed_image = preprocess_image_grayscale(temp_file_path)
+
             # Create two columns to display the image and JSON side by side
             col1, col2 = st.columns([1, 2])  # You can adjust the width ratio
 
-            # Show the image in the first column
+            # Show the image in the first column (grayscale)
             with col1:
-                if uploaded_file.type in ["image/jpeg", "image/png", "image/jpg"]:
-                    # Show the image
-                    image = Image.open(temp_file_path)  # Open the image using PIL
-                    st.image(image, caption="Uploaded Document", use_container_width=True)
-
-                elif uploaded_file.type == "application/pdf":
-                    # For PDFs, show the first page as an image preview
-                    try:
-                        from pdf2image import convert_from_path
-                        pages = convert_from_path(temp_file_path, first_page=1, last_page=1)
-                        st.image(pages[0], caption="First page of PDF", use_container_width=True)
-                    except Exception as e:
-                        st.error(f"❌ Error displaying PDF: {e}")
+                st.image(preprocessed_image, caption="Grayscale Image", use_container_width=True)
 
             # Show the extracted JSON data in the second column
             with col2:
@@ -151,25 +143,27 @@ else:
                             tmp_file.write(response.content)
                             temp_file_path = tmp_file.name
 
-                        # Show the image in the first column
+                        # Preprocess the image (convert to grayscale)
+                        preprocessed_image = preprocess_image_grayscale(temp_file_path)
+
+                        # Show the image in the first column (grayscale)
                         col1, col2 = st.columns([1, 2])  # You can adjust the width ratio
                         with col1:
-                            # Load the image using PIL
-                            image = Image.open(temp_file_path)
-                            st.image(image, caption=f"Uploaded Document from S3: {selected_file}", use_container_width=True)
+                            st.image(preprocessed_image, caption="Grayscale Image from S3", use_container_width=True)
 
                         # Show the extracted JSON data in the second column
                         with col2:
-                            with st.spinner("🔍 Processing and Extracting data. This might take some time ..."):
+                            with st.spinner("🔍 Extracting data using LlamaExtract..."):
                                 try:
                                     extracted_data = extract_transaction_data(temp_file_path, api_key=LLAMA_CLOUD_API_KEY)
                                     st.success("✅ Extraction Successful!")
-                                    st.subheader("📤 Final output after Post Processing:")
+                                    st.subheader("📤 Extracted JSON Output:")
                                     st.json(extracted_data)
                                 except Exception as e:
                                     st.error(f"❌ Extraction failed: {str(e)}")
 
                         # Cleanup the temporary file
                         os.unlink(temp_file_path)
+
                     except Exception as e:
                         st.error(f"❌ Error processing file: {e}")
