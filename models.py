@@ -18,11 +18,11 @@ from typing import List
 
 class ProductData(BaseModel):
     product_code: str = Field(
-        description="A unique identifier or code for the product, used for inventory tracking, transactions, and differentiating between various products. This code is often alphanumeric and follows a specific format to ensure consistency.",
+        description="A unique identifier or code for the product, used for inventory tracking, transactions, and differentiating between various products. This code is often alphanumeric and follows a specific format to ensure consistency. ",
         example="P12345"  # Example of a unique product code.
     )
     product_name: str = Field(
-        description="The name or designation of the product involved in the transaction. It represents the product being traded, sold, or transported, and helps in identifying the product within the system.",
+        description="The name or designation of the product involved in the transaction. It represents the product being traded, sold, or transported, and helps in identifying the product within the system.  ",
         example="Premium Gasoline"  # Example of the product name.
     )
     octane_rating: str = Field(
@@ -50,27 +50,27 @@ class ProductData(BaseModel):
 
 class TransactionData(BaseModel):
     bol_number: str = Field(
-        description="The Bill of Lading (BOL) number is a unique identifier for a shipment. It acts as a contract between the shipper and the carrier, detailing the product being transported and the agreed terms. The BOL is crucial for verifying deliveries and ensuring proper documentation.",
+        description="The Bill of Lading (BOL) number is a unique identifier for a shipment. It acts as a contract between the shipper and the carrier, detailing the product being transported and the agreed terms. The BOL is crucial for verifying deliveries and ensuring proper documentation.Sometimes, this is also reprented as manifest or manifest number or BOL",
         example="0001481033",
         alias="BOL #" 
     )
     Card_in: str = Field(
-        description="The time when the transaction started or the product was loaded onto the transport vehicle. It marks the start of the shipping or delivery cycle and helps in tracking the duration of the shipment. This should be recorded in a 24-hour time format.",
+        description="The time when the transaction started or the product was loaded onto the transport vehicle. It marks the start of the shipping or delivery cycle and helps in tracking the duration of the shipment. This should be recorded in a 24-hour time format. Sometimes, this is also represented as load in time, card in, load start, start time",
         example="09:00",  # Example of card-in time (time only, no date).
         alias="Card In time" 
     )
     card_out: str = Field(
-        description="The time when the product was delivered or the transaction was completed. It typically marks when the goods are offloaded from the transport vehicle, marking the end of the shipping cycle. This should be recorded in a 24-hour time format.",
+        description="The time when the product was delivered or the transaction was completed. It typically marks when the goods are offloaded from the transport vehicle, marking the end of the shipping cycle. This should be recorded in a 24-hour time format. Sometimes, this is also represented as load out time, card out, load end, end time",
         example="17:00",  # Example of card-out time (time only, no date).
         alias="Card Out time" 
     )
     transaction_date: str = Field(
-        description="The date on which either the card-in or card-out event occurs. This represents the key transactional date for the shipment, used as the reference date for tracking and delivery.",
+        description="The date on which either the card-in or card-out event occurs. This represents the key transactional date for the shipment, used as the reference date for tracking and delivery.  Sometimes, this is also represented as date, card in date, card out date",
         example="2025-08-01",  # Example of a transaction date (card-in or card-out).
         alias="Card In Date" 
     )
     carrier_name: str = Field(
-        description="The name of the carrier company responsible for transporting the product. This is important for determining who is liable for the goods during transit and can help in resolving any issues that arise during transportation.",
+        description="The name of the carrier company responsible for transporting the product. This is important for determining who is liable for the goods during transit and can help in resolving any issues that arise during transportation. Sometimes, this is also represented as Carrier or Loader",
         example="Global Logistics Inc.",  # Example of the carrier company name.
         alias="Carrier#/Loading#" 
     )
