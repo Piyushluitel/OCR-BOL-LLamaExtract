@@ -4,4 +4,4 @@ llama-cloud-services
 pdf2image
 Pillow
 pydantic
-cv2
+opencv-python
