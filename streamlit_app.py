@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 import requests
 from utils import extract_transaction_data, LLAMA_CLOUD_API_KEY
-from image_processing import preprocess_image_grayscale  # Import the preprocessing function
+from image_preprocessing import preprocess_image_grayscale  # Import the preprocessing function
 
 # Function to get the filenames from the local s3_filenames.txt file
 def get_local_filenames(file_path: str) -> list:
